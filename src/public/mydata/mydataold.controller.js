@@ -8,8 +8,6 @@ SignupController.$inject = ['MenuService'];
 function SignupController(MenuService) {
   var signupCtrl = this;
 
-signupCtrl.user = MenuService.user;
-
 signupCtrl.Submit = function(){
 
 // console.log(signupCtrl.user);
