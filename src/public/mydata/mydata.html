@@ -1,0 +1,11 @@
+  <h3>Registred data</h3>
+<div ng-if="mydataCtrl.user.firstname">
+Firstname: {{ mydataCtrl.user.username}} <br>
+Lastname: {{ mydataCtrl.user.lastname}} <br>
+Email: {{ mydataCtrl.user.email}} <br>
+Phone: {{ mydataCtrl.user.phone }} <br>
+Favorite menu item: {{ mydataCtrl.user.favorite }}
+
+</div>
+
+<div id="info" ng-if="!mydataCtrl.user.firstname"> Not Signed Up Yet. <a ui-sref="public.signup">Sign up Now!</a></div>
